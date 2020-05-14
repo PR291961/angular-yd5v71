@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
 
-@Component({
-  selector: 'my-app',
-})
 export class AppComponent  {
-  name = 'Please click on a menu item';
-}
+  title: string;
+  constructor() 
+  {
+  this.title = 'Please click on a menu item';
+  }  
+)
